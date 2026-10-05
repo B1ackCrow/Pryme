@@ -11,9 +11,39 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		922C7E21304E381700387C11 /* Pryme */ = {
+		92CD20C33053FAA900A3C56D /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Pryme;
+			path = App;
+			sourceTree = "<group>";
+		};
+		92CD20C43053FABC00A3C56D /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92CD20C53053FAC900A3C56D /* Storage */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		92CD20C63053FAD000A3C56D /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		92CD20C73053FAD600A3C56D /* Components */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		92CD20C83053FADD00A3C56D /* Screens */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		92CD2138305946B600A3C56D /* Styles */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +62,13 @@
 		922C7E16304E381700387C11 = {
 			isa = PBXGroup;
 			children = (
-				922C7E21304E381700387C11 /* Pryme */,
+				92CD2138305946B600A3C56D /* Styles */,
+				92CD20C83053FADD00A3C56D /* Screens */,
+				92CD20C73053FAD600A3C56D /* Components */,
+				92CD20C63053FAD000A3C56D /* Models */,
+				92CD20C53053FAC900A3C56D /* Storage */,
+				92CD20C43053FABC00A3C56D /* Resources */,
+				92CD20C33053FAA900A3C56D /* App */,
 				922C7E20304E381700387C11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +97,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				922C7E21304E381700387C11 /* Pryme */,
+				92CD20C33053FAA900A3C56D /* App */,
+				92CD20C43053FABC00A3C56D /* Resources */,
+				92CD20C53053FAC900A3C56D /* Storage */,
+				92CD20C63053FAD000A3C56D /* Models */,
+				92CD20C73053FAD600A3C56D /* Components */,
+				92CD20C83053FADD00A3C56D /* Screens */,
+				92CD2138305946B600A3C56D /* Styles */,
 			);
 			name = Pryme;
 			packageProductDependencies = (
